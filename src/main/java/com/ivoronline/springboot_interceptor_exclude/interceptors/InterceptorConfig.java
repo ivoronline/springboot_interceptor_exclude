@@ -16,7 +16,7 @@ public class InterceptorConfig extends WebMvcConfigurationSupport {
   //===================================================================
 	@Override
 	public void addInterceptors(InterceptorRegistry registry) {
-		registry.addInterceptor(myInterceptor).addPathPatterns("/Filtered").excludePathPatterns("/NotFiltered");;
+		registry.addInterceptor(myInterceptor).addPathPatterns("/Filtered").excludePathPatterns("/NotFiltered");
 	}
 
 }
